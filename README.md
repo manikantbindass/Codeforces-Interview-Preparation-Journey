@@ -9,8 +9,8 @@
 <br/>
 
 <!-- Badges -->
-![Problems Solved](https://img.shields.io/badge/Problems_Solved-1-blue?style=for-the-badge&logo=codeforces&logoColor=white)
-![Easy](https://img.shields.io/badge/Easy-1-success?style=for-the-badge)
+![Problems Solved](https://img.shields.io/badge/Problems_Solved-2-blue?style=for-the-badge&logo=codeforces&logoColor=white)
+![Easy](https://img.shields.io/badge/Easy-2-success?style=for-the-badge)
 ![Medium](https://img.shields.io/badge/Medium-0-orange?style=for-the-badge)
 ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
@@ -23,12 +23,14 @@
 <!-- Language Switcher -->
 ### 🌍 Language / भाषा / 言語 / 语言
 
-[![English](https://img.shields.io/badge/English-blue?style=flat-square)](languages/en.md)
-[![Français](https://img.shields.io/badge/Français-red?style=flat-square)](languages/fr.md)
-[![Español](https://img.shields.io/badge/Español-yellow?style=flat-square)](languages/es.md)
-[![தமிழ்](https://img.shields.io/badge/தமிழ்-green?style=flat-square)](languages/ta.md)
-[![中文](https://img.shields.io/badge/中文-orange?style=flat-square)](languages/zh.md)
-[![日本語](https://img.shields.io/badge/日本語-purple?style=flat-square)](languages/ja.md)
+<p>
+  <a href="languages/en.md" title="English"><img src="https://flagcdn.com/48x36/gb.png" width="48" height="36" alt="English"/></a>&nbsp;&nbsp;
+  <a href="languages/fr.md" title="Français"><img src="https://flagcdn.com/48x36/fr.png" width="48" height="36" alt="Français"/></a>&nbsp;&nbsp;
+  <a href="languages/es.md" title="Español"><img src="https://flagcdn.com/48x36/es.png" width="48" height="36" alt="Español"/></a>&nbsp;&nbsp;
+  <a href="languages/ta.md" title="தமிழ் (Tamil)"><img src="https://flagcdn.com/48x36/in.png" width="48" height="36" alt="தமிழ்"/></a>&nbsp;&nbsp;
+  <a href="languages/zh.md" title="中文 (Chinese)"><img src="https://flagcdn.com/48x36/cn.png" width="48" height="36" alt="中文"/></a>&nbsp;&nbsp;
+  <a href="languages/ja.md" title="日本語 (Japanese)"><img src="https://flagcdn.com/48x36/jp.png" width="48" height="36" alt="日本語"/></a>
+</p>
 
 </div>
 
@@ -69,7 +71,8 @@ Codeforces-Interview-Preparation-Journey/
 │
 ├── 📝 problems/
 │   ├── easy/                       # Rating 800-1200
-│   │   └── 001_watermelon.md       # Sample problem
+│   │   ├── 001_watermelon.md       # Watermelon
+│   │   └── 002_theatre_square.md   # Theatre Square
 │   ├── medium/                     # Rating 1200-1800
 │   └── hard/                       # Rating 1800+
 │
@@ -122,8 +125,9 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 
 | Tag | Count | Status |
 |-----|-------|--------|
-| 🔢 Math | 1 | 🟢 In Progress |
+| 🔢 Math | 2 | 🟢 In Progress |
 | 📦 Arrays | 1 | 🟢 In Progress |
+| 🔧 Implementation | 1 | 🟢 In Progress |
 | 🔤 Strings | 0 | 🔴 Not Started |
 | 📊 Sorting | 0 | 🔴 Not Started |
 | 🌲 Trees | 0 | 🔴 Not Started |

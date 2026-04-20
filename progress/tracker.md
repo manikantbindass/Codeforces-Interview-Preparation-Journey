@@ -4,8 +4,8 @@
 
 | Metric | Count |
 |--------|-------|
-| Total Solved | 1 |
-| Easy | 1 |
+| Total Solved | 2 |
+| Easy | 2 |
 | Medium | 0 |
 | Hard | 0 |
 
@@ -15,7 +15,8 @@
 
 | Date | Problem | Difficulty | Rating | Tags | Status |
 |------|---------|------------|--------|------|--------|
-| 2026-04-20 | [Watermelon](../problems/easy/001_watermelon.md) | Easy | 1 | math, brute-force | ✅ |
+| 2026-04-20 | [Watermelon](../problems/easy/001_watermelon.md) | Easy | 800 | math, brute-force | ✅ |
+| 2026-04-20 | [Theatre Square](../problems/easy/002_theatre_square.md) | Easy | 1000 | math, implementation | ✅ |
 
 ---
 
@@ -27,7 +28,7 @@
 |------|----------------|----------------|
 | W1 (Apr 1-7) | 0 | - |
 | W2 (Apr 8-14) | 0 | - |
-| W3 (Apr 15-21) | 1 | Math |
+| W3 (Apr 15-21) | 2 | Math, Implementation |
 | W4 (Apr 22-28) | 0 | - |
 
 ---
