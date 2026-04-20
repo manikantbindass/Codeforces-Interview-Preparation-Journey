@@ -15,8 +15,8 @@
 
 | Date | Problem | Difficulty | Rating | Tags | Status |
 |------|---------|------------|--------|------|--------|
-| 2026-04-20 | [Watermelon](../problems/easy/001_watermelon.md) | Easy | 800 | math, brute-force | ✅ |
-| 2026-04-20 | [Theatre Square](../problems/easy/002_theatre_square.md) | Easy | 1000 | math, implementation | ✅ |
+| 2026-04-20 | [Watermelon](../problems/easy/001_watermelon.md) | Easy | 2 | math, brute-force | ✅ |
+| 2026-04-20 | [Theatre Square](../problems/easy/002_theatre_square.md) | Easy | 2 | math, implementation | ✅ |
 
 ---
 
