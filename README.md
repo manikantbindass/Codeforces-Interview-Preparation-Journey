@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Codeforces%20Interview%20Prep&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Daily%20Problem%20Solving%20%7C%20EASY%20→%20HARD%20%7C%20MAANG%20Ready&descAlignY=52&descSize=18" width="100%"/>
 
 <!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=100&lines=🚀+Solving+Codeforces+Daily...;🎯+Targeting+MAANG%2FFAANG+Interviews;📈+From+Easy+→+Medium+→+Hard;🧠+Building+Problem+Solving+Muscle" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&random=false&width=700&height=45&lines=Solving+Codeforces+Daily+%F0%9F%9A%80;Targeting+MAANG+%2F+FAANG+Interviews+%F0%9F%8E%AF;Easy+%E2%86%92+Medium+%E2%86%92+Hard+%F0%9F%93%88;Building+Problem+Solving+Muscle+%F0%9F%A7%A0" alt="Typing SVG" /></a>
 
 <br/>
 
