@@ -9,8 +9,8 @@
 <br/>
 
 <!-- Badges -->
-![Problems Solved](https://img.shields.io/badge/Problems_Solved-2-blue?style=for-the-badge&logo=codeforces&logoColor=white)
-![Easy](https://img.shields.io/badge/Easy-2-success?style=for-the-badge)
+![Problems Solved](https://img.shields.io/badge/Problems_Solved-3-blue?style=for-the-badge&logo=codeforces&logoColor=white)
+![Easy](https://img.shields.io/badge/Easy-3-success?style=for-the-badge)
 ![Medium](https://img.shields.io/badge/Medium-0-orange?style=for-the-badge)
 ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
@@ -72,7 +72,8 @@ Codeforces-Interview-Preparation-Journey/
 ├── 📝 problems/
 │   ├── easy/                       # Rating 800-1200
 │   │   ├── 001_watermelon.md       # Watermelon
-│   │   └── 002_theatre_square.md   # Theatre Square
+│   │   ├── 002_theatre_square.md   # Theatre Square
+│   │   └── 003_ilya_and_bank_account.md  # Ilya and Bank Account
 │   ├── medium/                     # Rating 1200-1800
 │   └── hard/                       # Rating 1800+
 │
@@ -118,16 +119,16 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 |------|-----|-----|-----|-----|-----|-----|-----|-------|
 | W1   | -   | -   | -   | -   | -   | -   | -   | 0     |
 | W2   | -   | -   | -   | -   | -   | -   | -   | 0     |
-| W3   | -   | -   | -   | -   | -   | -   | ✅✅ | 2     |
+| W3   | -   | -   | -   | -   | -   | -   | ✅✅✅ | 3     |
 | W4   | -   | -   | -   | -   | -   | -   | -   | 0     |
 
 ### 🏷️ Topics Covered
 
 | Tag | Count | Status |
 |-----|-------|--------|
-| 🔢 Math | 2 | 🟢 In Progress |
+| 🔢 Math | 3 | 🟢 In Progress |
 | 📦 Arrays | 1 | 🟢 In Progress |
-| 🔧 Implementation | 1 | 🟢 In Progress |
+| 🔧 Implementation | 2 | 🟢 In Progress |
 | 🔤 Strings | 0 | 🔴 Not Started |
 | 📊 Sorting | 0 | 🔴 Not Started |
 | 🌲 Trees | 0 | 🔴 Not Started |
