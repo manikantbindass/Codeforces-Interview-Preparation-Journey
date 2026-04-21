@@ -15,9 +15,9 @@
 
 | Date | Problem | Difficulty | Rating | Tags | Status |
 |------|---------|------------|--------|------|--------|
-| 2026-04-20 | [Watermelon](../problems/easy/001_watermelon.md) | Easy | 2 | math, brute-force | ✅ |
-| 2026-04-20 | [Theatre Square](../problems/easy/002_theatre_square.md) | Easy | 2 | math, implementation | ✅ |
-| 2026-04-21 | [Ilya and Bank Account](../problems/easy/003_ilya_and_bank_account.md) | Easy | 1000 | math, implementation | ✅ |
+| 2026-04-20 | [Watermelon](../problems/easy/001_watermelon.md) | Easy | 3 | math, brute-force | ✅ |
+| 2026-04-20 | [Theatre Square](../problems/easy/002_theatre_square.md) | Easy | 3 | math, implementation | ✅ |
+| 2026-04-21 | [Ilya and Bank Account](../problems/easy/003_ilya_and_bank_account.md) | Easy | 3 | math, implementation | ✅ |
 
 ---
 
