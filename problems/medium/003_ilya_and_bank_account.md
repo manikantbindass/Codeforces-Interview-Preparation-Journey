@@ -1,6 +1,6 @@
 # Ilya and Bank Account
 
-> **Difficulty:** Easy | **Rating:** 1000 | **Tags:** `math`, `implementation`, `number-theory`
+> **Difficulty:** Medium | **Rating:** 1000 | **Tags:** `math`, `implementation`, `number-theory`
 > **Date Solved:** 2026-04-21
 
 ---

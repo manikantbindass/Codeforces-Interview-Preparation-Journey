@@ -10,8 +10,8 @@
 
 <!-- Badges -->
 ![Problems Solved](https://img.shields.io/badge/Problems_Solved-3-blue?style=for-the-badge&logo=codeforces&logoColor=white)
-![Easy](https://img.shields.io/badge/Easy-3-success?style=for-the-badge)
-![Medium](https://img.shields.io/badge/Medium-0-orange?style=for-the-badge)
+![Easy](https://img.shields.io/badge/Easy-2-success?style=for-the-badge)
+![Medium](https://img.shields.io/badge/Medium-1-orange?style=for-the-badge)
 ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/manikantbindass/Codeforces-Interview-Preparation-Journey?style=for-the-badge&color=purple)
@@ -72,9 +72,9 @@ Codeforces-Interview-Preparation-Journey/
 ├── 📝 problems/
 │   ├── easy/                       # Rating 800-1200
 │   │   ├── 001_watermelon.md       # Watermelon
-│   │   ├── 002_theatre_square.md   # Theatre Square
-│   │   └── 003_ilya_and_bank_account.md  # Ilya and Bank Account
+│   │   └── 002_theatre_square.md   # Theatre Square
 │   ├── medium/                     # Rating 1200-1800
+│   │   └── 003_ilya_and_bank_account.md  # Ilya and Bank Account
 │   └── hard/                       # Rating 1800+
 │
 ├── 📋 templates/

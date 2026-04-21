@@ -68,7 +68,7 @@ def update_readme_badges(repo_root, counts):
     for pattern, replacement in replacements.items():
         content = re.sub(pattern, replacement, content)
 
-    with open(readme_path, "w", encoding="utf-8") as f:
+    with open(readme_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(content)
 
     return True
@@ -90,16 +90,25 @@ def update_tracker(repo_root, counts):
         content,
     )
     content = re.sub(
-        r"(\| Easy \| )\d+( \|)", rf"\g<1>{counts['easy']}\2", content
+        r"^(\| Easy \| )\d+( \|)$",
+        rf"\g<1>{counts['easy']}\2",
+        content,
+        flags=re.MULTILINE,
     )
     content = re.sub(
-        r"(\| Medium \| )\d+( \|)", rf"\g<1>{counts['medium']}\2", content
+        r"^(\| Medium \| )\d+( \|)$",
+        rf"\g<1>{counts['medium']}\2",
+        content,
+        flags=re.MULTILINE,
     )
     content = re.sub(
-        r"(\| Hard \| )\d+( \|)", rf"\g<1>{counts['hard']}\2", content
+        r"^(\| Hard \| )\d+( \|)$",
+        rf"\g<1>{counts['hard']}\2",
+        content,
+        flags=re.MULTILINE,
     )
 
-    with open(tracker_path, "w", encoding="utf-8") as f:
+    with open(tracker_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(content)
 
     return True
@@ -147,7 +156,7 @@ def update_tag_table(repo_root, tag_counts):
                 content,
             )
 
-    with open(readme_path, "w", encoding="utf-8") as f:
+    with open(readme_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(content)
 
 
