@@ -4,8 +4,8 @@
 
 | Metric | Count |
 |--------|-------|
-| Total Solved | 3 |
-| Easy | 2 |
+| Total Solved | 4 |
+| Easy | 3 |
 | Medium | 1 |
 | Hard | 0 |
 
@@ -18,6 +18,7 @@
 | 2026-04-20 | [Watermelon](../problems/easy/001_watermelon.md) | Easy | 800 | math, brute-force | ✅ |
 | 2026-04-20 | [Theatre Square](../problems/easy/002_theatre_square.md) | Easy | 1000 | math, implementation | ✅ |
 | 2026-04-21 | [Ilya and Bank Account](../problems/medium/003_ilya_and_bank_account.md) | Medium | 1000 | math, implementation, number-theory | ✅ |
+| 2026-04-22 | [Domino Piling](../problems/easy/003_domino_piling.md) | Easy | 800 | math, greedy, implementation | ✅ |
 
 ---
 
@@ -30,7 +31,7 @@
 | W1 (Apr 1-7) | 0 | - |
 | W2 (Apr 8-14) | 0 | - |
 | W3 (Apr 15-21) | 3 | Math, Implementation, Number Theory |
-| W4 (Apr 22-28) | 0 | - |
+| W4 (Apr 22-28) | 1 | Math, Greedy, Implementation |
 
 ---
 
