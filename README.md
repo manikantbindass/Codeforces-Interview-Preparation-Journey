@@ -9,9 +9,9 @@
 <br/>
 
 <!-- Badges -->
-![Problems Solved](https://img.shields.io/badge/Problems_Solved-4-blue?style=for-the-badge&logo=codeforces&logoColor=white)
+![Problems Solved](https://img.shields.io/badge/Problems_Solved-5-blue?style=for-the-badge&logo=codeforces&logoColor=white)
 ![Easy](https://img.shields.io/badge/Easy-3-success?style=for-the-badge)
-![Medium](https://img.shields.io/badge/Medium-1-orange?style=for-the-badge)
+![Medium](https://img.shields.io/badge/Medium-2-orange?style=for-the-badge)
 ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/manikantbindass/Codeforces-Interview-Preparation-Journey?style=for-the-badge&color=purple)
@@ -75,7 +75,8 @@ Codeforces-Interview-Preparation-Journey/
 │   │   ├── 002_theatre_square.md   # Theatre Square
 │   │   └── 003_domino_piling.md    # Domino Piling
 │   ├── medium/                     # Rating 1200-1800
-│   │   └── 003_ilya_and_bank_account.md  # Ilya and Bank Account
+│   │   ├── 003_ilya_and_bank_account.md  # Ilya and Bank Account
+│   │   └── 004_iq_test.md          # IQ Test
 │   └── hard/                       # Rating 1800+
 │
 ├── 📋 templates/
@@ -121,15 +122,15 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 | W1   | -   | -   | -   | -   | -   | -   | -   | 0     |
 | W2   | -   | -   | -   | -   | -   | -   | -   | 0     |
 | W3   | -   | -   | -   | -   | -   | -   | ✅✅✅ | 3     |
-| W4   | -   | -   | ✅  | -   | -   | -   | -   | 1     |
+| W4   | -   | -   | ✅  | ✅  | -   | -   | -   | 2     |
 
 ### 🏷️ Topics Covered
 
 | Tag | Count | Status |
 |-----|-------|--------|
 | 🔢 Math | 4 | 🟢 In Progress |
-| 📦 Arrays | 1 | 🟢 In Progress |
-| 🔧 Implementation | 2 | 🟢 In Progress |
+| 📦 Arrays | 2 | 🟢 In Progress |
+| 🔧 Implementation | 3 | 🟢 In Progress |
 | 🔤 Strings | 0 | 🔴 Not Started |
 | 📊 Sorting | 0 | 🔴 Not Started |
 | 🌲 Trees | 0 | 🔴 Not Started |
