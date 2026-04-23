@@ -9,8 +9,8 @@
 <br/>
 
 <!-- Badges -->
-![Problems Solved](https://img.shields.io/badge/Problems_Solved-5-blue?style=for-the-badge&logo=codeforces&logoColor=white)
-![Easy](https://img.shields.io/badge/Easy-3-success?style=for-the-badge)
+![Problems Solved](https://img.shields.io/badge/Problems_Solved-4-blue?style=for-the-badge&logo=codeforces&logoColor=white)
+![Easy](https://img.shields.io/badge/Easy-2-success?style=for-the-badge)
 ![Medium](https://img.shields.io/badge/Medium-2-orange?style=for-the-badge)
 ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
@@ -127,16 +127,16 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 |------|-----|-----|-----|-----|-----|-----|-----|-------|
 | W1   | -   | -   | -   | -   | -   | -   | -   | 0     |
 | W2   | -   | -   | -   | -   | -   | -   | -   | 0     |
-| W3   | -   | -   | -   | -   | -   | -   | ✅✅✅ | 3     |
+| W3   | -   | -   | -   | -   | -   | -   | ✅✅ | 2     |
 | W4   | -   | -   | ✅  | ✅  | -   | -   | -   | 2     |
 
 ### 🏷️ Topics Covered
 
 | Tag | Count | Status |
 |-----|-------|--------|
-| 🔢 Math | 4 | 🟢 In Progress |
-| 📦 Arrays | 2 | 🟢 In Progress |
-| 🔧 Implementation | 3 | 🟢 In Progress |
+| 🔢 Math | 3 | 🟢 In Progress |
+| 📦 Arrays | 1 | 🟢 In Progress |
+| 🔧 Implementation | 2 | 🟢 In Progress |
 | 🔤 Strings | 0 | 🔴 Not Started |
 | 📊 Sorting | 0 | 🔴 Not Started |
 | 🌲 Trees | 0 | 🔴 Not Started |
