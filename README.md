@@ -44,6 +44,12 @@ This repository follows a progressive difficulty curve: **Easy → Medium → Ha
 
 > 💡 *"The only way to get better at problem-solving is to solve problems every single day."*
 
+> "Small steps every day become strong instincts."
+>
+> "Discipline solves more problems than motivation."
+>
+> "The best coders are built by consistent practice, not rare bursts."
+
 ---
 
 ## 🎯 Goal
@@ -175,6 +181,111 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 | Topological Sort | Dependency ordering | Course schedule |
 | Trie | Prefix-based search | Autocomplete |
 | Segment Tree | Range queries with updates | Range sum queries |
+
+---
+
+## 🧭 Codeforces Cheat Sheet
+
+### Fast Reading Checklist
+
+- Read constraints first.
+- Check whether the problem is about:
+  - parity
+  - sorting
+  - prefix sums
+  - greedy choice
+  - binary search
+  - graphs
+  - dynamic programming
+- Ask if brute force is possible, then optimize only if needed.
+
+### Universal Solve Flow
+
+```mermaid
+flowchart TD
+    A["Read problem"] --> B["Extract constraints"]
+    B --> C["Find the pattern"]
+    C --> D["Try small examples"]
+    D --> E["Write brute force"]
+    E --> F["Optimize bottleneck"]
+    F --> G["Check complexity"]
+    G --> H["Code + test"]
+```
+
+### Complexity Cheat Sheet
+
+| Input Size | Usually Safe Complexity | Typical Strategy |
+|------------|-------------------------|------------------|
+| `n <= 10^2` | `O(n^3)` or `O(n^4)` | Brute force, simulation |
+| `n <= 10^3` | `O(n^2)` | Double loop, basic DP |
+| `n <= 10^5` | `O(n log n)` | Sorting, binary search, greedy |
+| `n <= 10^6` | `O(n)` | Linear scan, prefix sums, hashing |
+| Many test cases | `O(n)` or better | Constant work per item |
+
+### Time vs Space Intuition
+
+| Pattern | Time | Space | Idea |
+|---------|------|-------|------|
+| Prefix Sum | `O(n)` | `O(n)` | Precompute cumulative values |
+| Two Pointers | `O(n)` | `O(1)` | Move both ends smartly |
+| Sorting + Scan | `O(n log n)` | `O(1)` or `O(n)` | Sort, then inspect neighbors |
+| Binary Search | `O(log n)` | `O(1)` | Search on monotonic condition |
+| BFS / DFS | `O(V + E)` | `O(V)` | Traverse graph or tree |
+| DP | depends | depends | Store overlapping subproblems |
+
+### Visual Problem-Solving Graph
+
+```mermaid
+graph LR
+    A["Brute force"] --> B["Find repeated work"]
+    B --> C["Use math or pattern"]
+    C --> D["Reduce complexity"]
+    D --> E["Check edge cases"]
+    E --> F["Submit with confidence"]
+```
+
+### Topic Radar
+
+Use this as a quick radio-style checklist while studying:
+
+- ○ Implementation
+- ○ Math
+- ○ Arrays
+- ○ Strings
+- ○ Sorting
+- ○ Prefix Sum
+- ○ Greedy
+- ○ Binary Search
+- ○ Two Pointers
+- ○ Sliding Window
+- ○ Hashing
+- ○ Stack / Queue
+- ○ Recursion
+- ○ Backtracking
+- ○ Bit Manipulation
+- ○ Trees
+- ○ Graphs
+- ○ BFS / DFS
+- ○ Shortest Path
+- ○ Topological Sort
+- ○ Dynamic Programming
+- ○ Union Find
+
+### Interview-Ready Checklist
+
+<details>
+<summary>Open the checklist</summary>
+
+- [ ] Can I explain the brute force first?
+- [ ] Can I justify the optimization?
+- [ ] Can I state time complexity in one sentence?
+- [ ] Can I state space complexity in one sentence?
+- [ ] Can I test with a tiny example?
+- [ ] Can I test with edge cases?
+- [ ] Can I explain why the approach is correct?
+- [ ] Can I rewrite the idea in simpler words?
+
+</details>
 
 ---
 
