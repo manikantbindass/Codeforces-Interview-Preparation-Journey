@@ -9,8 +9,8 @@
 <br/>
 
 <!-- Badges -->
-![Problems Solved](https://img.shields.io/badge/Problems_Solved-4-blue?style=for-the-badge&logo=codeforces&logoColor=white)
-![Easy](https://img.shields.io/badge/Easy-2-success?style=for-the-badge)
+![Problems Solved](https://img.shields.io/badge/Problems_Solved-5-blue?style=for-the-badge&logo=codeforces&logoColor=white)
+![Easy](https://img.shields.io/badge/Easy-3-success?style=for-the-badge)
 ![Medium](https://img.shields.io/badge/Medium-2-orange?style=for-the-badge)
 ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
@@ -127,16 +127,16 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 |------|-----|-----|-----|-----|-----|-----|-----|-------|
 | W1   | -   | -   | -   | -   | -   | -   | -   | 0     |
 | W2   | -   | -   | -   | -   | -   | -   | -   | 0     |
-| W3   | -   | -   | -   | -   | -   | -   | ✅✅ | 2     |
+| W3   | -   | -   | -   | -   | -   | -   | ✅✅✅ | 3     |
 | W4   | -   | -   | ✅  | ✅  | -   | -   | -   | 2     |
 
 ### 🏷️ Topics Covered
 
 | Tag | Count | Status |
 |-----|-------|--------|
-| 🔢 Math | 3 | 🟢 In Progress |
-| 📦 Arrays | 1 | 🟢 In Progress |
-| 🔧 Implementation | 2 | 🟢 In Progress |
+| 🔢 Math | 4 | 🟢 In Progress |
+| 📦 Arrays | 2 | 🟢 In Progress |
+| 🔧 Implementation | 3 | 🟢 In Progress |
 | 🔤 Strings | 0 | 🔴 Not Started |
 | 📊 Sorting | 0 | 🔴 Not Started |
 | 🌲 Trees | 0 | 🔴 Not Started |
@@ -400,13 +400,13 @@ If this repo helped you, consider giving it a ⭐!
 
 | Month | Problems Solved | Easy | Medium | Hard | Focus Areas |
 |-------|----------------|------|--------|------|-------------|
-| April 2026 | 4 | 2 | 2 | 0 | Math, Implementation, Greedy, Brute Force |
+| April 2026 | 5 | 3 | 2 | 0 | Math, Implementation, Greedy, Brute Force |
 
 ### Monthly Snapshot
 
 ```mermaid
 pie title April 2026 Problem Split
-    "Easy" : 2
+    "Easy" : 3
     "Medium" : 2
     "Hard" : 0
 ```
