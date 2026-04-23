@@ -392,6 +392,37 @@ If this repo helped you, consider giving it a ⭐!
 
 ---
 
+## 📅 Monthly Log
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=110&section=header&text=Monthly%20Momentum&fontSize=34&fontColor=fff&animation=twinkling&fontAlignY=55" width="100%"/>
+</div>
+
+| Month | Problems Solved | Easy | Medium | Hard | Focus Areas |
+|-------|----------------|------|--------|------|-------------|
+| April 2026 | 4 | 2 | 2 | 0 | Math, Implementation, Greedy, Brute Force |
+
+### Monthly Snapshot
+
+```mermaid
+pie title April 2026 Problem Split
+    "Easy" : 2
+    "Medium" : 2
+    "Hard" : 0
+```
+
+### Monthly Flow
+
+```mermaid
+graph LR
+    A["Week 1"] --> B["Week 2"]
+    B --> C["Week 3"]
+    C --> D["Week 4"]
+    D --> E["Keep building"]
+```
+
+---
+
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 </div>
