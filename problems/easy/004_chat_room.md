@@ -78,6 +78,62 @@ The letters do not appear in the exact order needed to form `hello`.
 ## Solution Code
 
 <details>
+<summary>C++ Solution</summary>
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string s;
+    cin >> s;
+
+    string target = "hello";
+    int j = 0;
+
+    for (char ch : s) {
+        if (j < target.size() && ch == target[j]) {
+            j++;
+        }
+    }
+
+    cout << (j == target.size() ? "YES" : "NO") << '\n';
+    return 0;
+}
+```
+
+</details>
+
+<details>
+<summary>Java Solution</summary>
+
+```java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class CF58AChatRoom {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String s = br.readLine();
+        String target = "hello";
+        int j = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            if (j < target.length() && s.charAt(i) == target.charAt(j)) {
+                j++;
+            }
+        }
+
+        System.out.println(j == target.length() ? "YES" : "NO");
+    }
+}
+```
+
+</details>
+
+<details>
 <summary>Python Solution</summary>
 
 ```python
