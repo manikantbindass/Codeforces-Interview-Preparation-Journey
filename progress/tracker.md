@@ -4,8 +4,8 @@
 
 | Metric | Count |
 |--------|-------|
-| Total Solved | 5 |
-| Easy | 3 |
+| Total Solved | 6 |
+| Easy | 4 |
 | Medium | 2 |
 | Hard | 0 |
 
@@ -20,6 +20,7 @@
 | 2026-04-21 | [Ilya and Bank Account](../problems/medium/003_ilya_and_bank_account.md) | Medium | 1000 | math, implementation, number-theory | ✅ |
 | 2026-04-22 | [Domino Piling](../problems/easy/003_domino_piling.md) | Easy | 800 | math, greedy, implementation | ✅ |
 | 2026-04-23 | [IQ Test](../problems/medium/004_iq_test.md) | Medium | 1300 | brute-force | ✅ |
+| 2026-04-24 | [Chat room](../problems/easy/004_chat_room.md) | Easy | 1000 | greedy, strings | ✅ |
 
 ---
 
@@ -32,7 +33,7 @@
 | W1 (Apr 1-7) | 0 | - |
 | W2 (Apr 8-14) | 0 | - |
 | W3 (Apr 15-21) | 3 | Math, Implementation, Number Theory |
-| W4 (Apr 22-28) | 2 | Math, Greedy, Implementation, Brute Force |
+| W4 (Apr 22-28) | 3 | Math, Greedy, Implementation, Brute Force, Strings |
 
 ---
 
@@ -51,9 +52,9 @@
 
 | Milestone | Target | Current | Status |
 |-----------|--------|---------|--------|
-| First 10 problems | 10 | 5 | 🔴 |
-| First 50 problems | 50 | 5 | 🔴 |
-| First 100 problems | 100 | 5 | 🔴 |
+| First 10 problems | 10 | 6 | 🔴 |
+| First 50 problems | 50 | 6 | 🔴 |
+| First 100 problems | 100 | 6 | 🔴 |
 | 7-day streak | 7 days | 0 | 🔴 |
 | 30-day streak | 30 days | 0 | 🔴 |
 | All patterns covered | 15 | 0 | 🔴 |
