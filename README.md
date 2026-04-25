@@ -9,8 +9,8 @@
 <br/>
 
 <!-- Badges -->
-![Problems Solved](https://img.shields.io/badge/Problems_Solved-6-blue?style=for-the-badge&logo=codeforces&logoColor=white)
-![Easy](https://img.shields.io/badge/Easy-4-success?style=for-the-badge)
+![Problems Solved](https://img.shields.io/badge/Problems_Solved-7-blue?style=for-the-badge&logo=codeforces&logoColor=white)
+![Easy](https://img.shields.io/badge/Easy-5-success?style=for-the-badge)
 ![Medium](https://img.shields.io/badge/Medium-2-orange?style=for-the-badge)
 ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
@@ -80,7 +80,8 @@ Codeforces-Interview-Preparation-Journey/
 │   │   ├── 001_watermelon.md       # Watermelon
 │   │   ├── 002_theatre_square.md   # Theatre Square
 │   │   ├── 003_domino_piling.md    # Domino Piling
-│   │   └── 004_chat_room.md        # Chat room
+│   │   ├── 004_chat_room.md        # Chat room
+│   │   └── 005_football.md         # Football
 │   ├── medium/                     # Rating 1200-1800
 │   │   ├── 003_ilya_and_bank_account.md  # Ilya and Bank Account
 │   │   └── 004_iq_test.md          # IQ Test
@@ -129,7 +130,7 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 | W1   | -   | -   | -   | -   | -   | -   | -   | 0     |
 | W2   | -   | -   | -   | -   | -   | -   | -   | 0     |
 | W3   | -   | -   | -   | -   | -   | -   | ✅✅✅ | 3     |
-| W4   | -   | -   | ✅  | ✅  | ✅  | -   | -   | 3     |
+| W4   | -   | -   | ✅  | ✅  | ✅  | ✅  | -   | 4     |
 
 ### 🏷️ Topics Covered
 
@@ -137,8 +138,8 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 |-----|-------|--------|
 | 🔢 Math | 4 | 🟢 In Progress |
 | 📦 Arrays | 2 | 🟢 In Progress |
-| 🔧 Implementation | 3 | 🟢 In Progress |
-| 🔤 Strings | 1 | 🟢 In Progress |
+| 🔧 Implementation | 4 | 🟢 In Progress |
+| 🔤 Strings | 2 | 🟢 In Progress |
 | 📊 Sorting | 0 | 🔴 Not Started |
 | 🌲 Trees | 0 | 🔴 Not Started |
 | 🗺️ Graphs | 0 | 🔴 Not Started |
@@ -401,13 +402,13 @@ If this repo helped you, consider giving it a ⭐!
 
 | Month | Problems Solved | Easy | Medium | Hard | Focus Areas |
 |-------|----------------|------|--------|------|-------------|
-| April 2026 | 6 | 4 | 2 | 0 | Math, Implementation, Greedy, Brute Force, Strings |
+| April 2026 | 7 | 5 | 2 | 0 | Math, Implementation, Greedy, Brute Force, Strings |
 
 ### Monthly Snapshot
 
 ```mermaid
 pie title April 2026 Problem Split
-    "Easy" : 4
+    "Easy" : 5
     "Medium" : 2
     "Hard" : 0
 ```
