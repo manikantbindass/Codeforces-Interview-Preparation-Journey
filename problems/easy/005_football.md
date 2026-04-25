@@ -78,6 +78,30 @@ There is no run of 7 equal characters, so the situation is not dangerous.
 ## Solution Code
 
 <details>
+<summary>C++ Solution</summary>
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string players;
+    cin >> players;
+
+    if (players.find("0000000") != string::npos || players.find("1111111") != string::npos) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+
+    return 0;
+}
+```
+
+</details>
+
+<details>
 <summary>Java Solution</summary>
 
 ```java
@@ -102,6 +126,24 @@ public class CF096AFootball {
         out.close();
     }
 }
+```
+
+</details>
+
+<details>
+<summary>Python Solution</summary>
+
+```python
+def solve():
+    players = input().strip()
+    if "0000000" in players or "1111111" in players:
+        print("YES")
+    else:
+        print("NO")
+
+
+if __name__ == "__main__":
+    solve()
 ```
 
 </details>
