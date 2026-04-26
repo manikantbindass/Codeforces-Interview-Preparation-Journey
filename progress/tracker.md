@@ -4,8 +4,8 @@
 
 | Metric | Count |
 |--------|-------|
-| Total Solved | 7 |
-| Easy | 5 |
+| Total Solved | 8 |
+| Easy | 6 |
 | Medium | 2 |
 | Hard | 0 |
 
@@ -22,6 +22,7 @@
 | 2026-04-23 | [IQ Test](../problems/medium/004_iq_test.md) | Medium | 1300 | brute-force | ✅ |
 | 2026-04-24 | [Chat room](../problems/easy/004_chat_room.md) | Easy | 1000 | greedy, strings | ✅ |
 | 2026-04-25 | [Football](../problems/easy/005_football.md) | Easy | 900 | implementation, strings | ✅ |
+| 2026-04-26 | [Young Physicist](../problems/easy/006_young_physicist.md) | Easy | 1000 | implementation, math | ✅ |
 
 ---
 
@@ -34,7 +35,7 @@
 | W1 (Apr 1-7) | 0 | - |
 | W2 (Apr 8-14) | 0 | - |
 | W3 (Apr 15-21) | 3 | Math, Implementation, Number Theory |
-| W4 (Apr 22-28) | 4 | Math, Greedy, Implementation, Brute Force, Strings |
+| W4 (Apr 22-28) | 5 | Math, Greedy, Implementation, Brute Force, Strings |
 
 ---
 
@@ -53,9 +54,9 @@
 
 | Milestone | Target | Current | Status |
 |-----------|--------|---------|--------|
-| First 10 problems | 10 | 7 | 🔴 |
-| First 50 problems | 50 | 7 | 🔴 |
-| First 100 problems | 100 | 7 | 🔴 |
-| 7-day streak | 7 days | 6 | 🔴 |
-| 30-day streak | 30 days | 6 | 🔴 |
+| First 10 problems | 10 | 8 | 🔴 |
+| First 50 problems | 50 | 8 | 🔴 |
+| First 100 problems | 100 | 8 | 🔴 |
+| 7-day streak | 7 days | 7 | 🟢 |
+| 30-day streak | 30 days | 7 | 🔴 |
 | All patterns covered | 15 | 0 | 🔴 |

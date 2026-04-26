@@ -9,8 +9,8 @@
 <br/>
 
 <!-- Badges -->
-![Problems Solved](https://img.shields.io/badge/Problems_Solved-7-blue?style=for-the-badge&logo=codeforces&logoColor=white)
-![Easy](https://img.shields.io/badge/Easy-5-success?style=for-the-badge)
+![Problems Solved](https://img.shields.io/badge/Problems_Solved-8-blue?style=for-the-badge&logo=codeforces&logoColor=white)
+![Easy](https://img.shields.io/badge/Easy-6-success?style=for-the-badge)
 ![Medium](https://img.shields.io/badge/Medium-2-orange?style=for-the-badge)
 ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
@@ -81,7 +81,8 @@ Codeforces-Interview-Preparation-Journey/
 │   │   ├── 002_theatre_square.md   # Theatre Square
 │   │   ├── 003_domino_piling.md    # Domino Piling
 │   │   ├── 004_chat_room.md        # Chat room
-│   │   └── 005_football.md         # Football
+│   │   ├── 005_football.md         # Football
+│   │   └── 006_young_physicist.md  # Young Physicist
 │   ├── medium/                     # Rating 1200-1800
 │   │   ├── 003_ilya_and_bank_account.md  # Ilya and Bank Account
 │   │   └── 004_iq_test.md          # IQ Test
@@ -130,15 +131,15 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 | W1   | -   | -   | -   | -   | -   | -   | -   | 0     |
 | W2   | -   | -   | -   | -   | -   | -   | -   | 0     |
 | W3   | -   | -   | -   | -   | -   | -   | ✅✅✅ | 3     |
-| W4   | -   | -   | ✅  | ✅  | ✅  | ✅  | -   | 4     |
+| W4   | -   | -   | ✅  | ✅  | ✅  | ✅  | ✅  | 5     |
 
 ### 🏷️ Topics Covered
 
 | Tag | Count | Status |
 |-----|-------|--------|
-| 🔢 Math | 4 | 🟢 In Progress |
+| 🔢 Math | 5 | 🟢 In Progress |
 | 📦 Arrays | 2 | 🟢 In Progress |
-| 🔧 Implementation | 4 | 🟢 In Progress |
+| 🔧 Implementation | 5 | 🟢 In Progress |
 | 🔤 Strings | 2 | 🟢 In Progress |
 | 📊 Sorting | 0 | 🔴 Not Started |
 | 🌲 Trees | 0 | 🔴 Not Started |
