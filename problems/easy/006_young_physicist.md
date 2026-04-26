@@ -84,6 +84,49 @@ The coordinate sums are `0`, `0`, and `0`, so the net force is zero and the body
 ## Solution Code
 
 <details>
+<summary>Java Solution</summary>
+
+```java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class CF69AYoungPhysicist {
+    public static void main(String[] args) throws Exception {
+        FastScanner fs = new FastScanner();
+        int n = fs.nextInt();
+
+        int x = 0;
+        int y = 0;
+        int z = 0;
+
+        for (int i = 0; i < n; i++) {
+            x += fs.nextInt();
+            y += fs.nextInt();
+            z += fs.nextInt();
+        }
+
+        System.out.println(x == 0 && y == 0 && z == 0 ? "YES" : "NO");
+    }
+
+    static class FastScanner {
+        private final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        private StringTokenizer st;
+
+        int nextInt() throws IOException {
+            while (st == null || !st.hasMoreElements()) {
+                st = new StringTokenizer(br.readLine());
+            }
+            return Integer.parseInt(st.nextToken());
+        }
+    }
+}
+```
+
+</details>
+
+<details>
 <summary>Python Solution</summary>
 
 ```python
