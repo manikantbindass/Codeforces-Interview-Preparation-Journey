@@ -10,6 +10,7 @@ Usage: python scripts/update_readme.py
 import os
 import re
 import glob
+import sys
 from pathlib import Path
 from datetime import datetime
 
@@ -124,6 +125,7 @@ def update_tag_table(repo_root, tag_counts):
     tag_emoji_map = {
         "math": "🔢 Math",
         "arrays": "📦 Arrays",
+        "implementation": "🔧 Implementation",
         "strings": "🔤 Strings",
         "sorting": "📊 Sorting",
         "trees": "🌲 Trees",
@@ -141,28 +143,33 @@ def update_tag_table(repo_root, tag_counts):
         "brute-force": "📦 Arrays",  # Group with arrays
     }
 
+    grouped_counts = {}
     for tag, count in tag_counts.items():
         tag_lower = tag.lower().strip()
         if tag_lower in tag_emoji_map:
             emoji_name = tag_emoji_map[tag_lower]
-            # Update count in table
-            old_pattern = rf"(\| {re.escape(emoji_name)} \| )\d+( \|)"
-            status = "🟢 In Progress" if count > 0 else "🔴 Not Started"
-            new_value = rf"\g<1>{count}\2 {status} |"
-            # Simple replacement for count
-            content = re.sub(
-                rf"(\| {re.escape(emoji_name)} \| )\d+( \| ).+?( \|)",
-                rf"\g<1>{count}\2{status}\3",
-                content,
-            )
+            grouped_counts[emoji_name] = grouped_counts.get(emoji_name, 0) + count
+
+    for emoji_name in set(tag_emoji_map.values()):
+        count = grouped_counts.get(emoji_name, 0)
+        status = "🟢 In Progress" if count > 0 else "🔴 Not Started"
+        content = re.sub(
+            rf"^\| {re.escape(emoji_name)} \| \d+ \| .+ \|$",
+            f"| {emoji_name} | {count} | {status} |",
+            content,
+            flags=re.MULTILINE,
+        )
 
     with open(readme_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(content)
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+
     repo_root = get_repo_root()
-    print("📊 Updating repository statistics...\n")
+    print("Updating repository statistics...\n")
 
     # Count problems
     counts = count_problems(repo_root)
@@ -174,22 +181,22 @@ def main():
     # Get tags
     tag_counts = get_problem_tags(repo_root)
     if tag_counts:
-        print(f"\n🏷️  Tags found: {', '.join(tag_counts.keys())}")
+        print(f"\nTags found: {', '.join(tag_counts.keys())}")
 
     # Update README badges
     if update_readme_badges(repo_root, counts):
-        print("\n✅ README.md badges updated")
+        print("\nREADME.md badges updated")
 
     # Update tag table
     if tag_counts:
         update_tag_table(repo_root, tag_counts)
-        print("✅ README.md tag table updated")
+        print("README.md tag table updated")
 
     # Update tracker
     if update_tracker(repo_root, counts):
-        print("✅ progress/tracker.md updated")
+        print("progress/tracker.md updated")
 
-    print("\n🎉 All stats updated successfully!")
+    print("\nAll stats updated successfully!")
 
 
 if __name__ == "__main__":
