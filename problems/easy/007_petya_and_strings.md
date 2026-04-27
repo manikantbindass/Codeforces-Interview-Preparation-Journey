@@ -112,6 +112,62 @@ public class CF112APetyaAndStrings {
 
 </details>
 
+<details>
+<summary>Python Solution</summary>
+
+```python
+def solve():
+    a = input().strip().lower()
+    b = input().strip().lower()
+
+    if a < b:
+        print(-1)
+    elif a > b:
+        print(1)
+    else:
+        print(0)
+
+
+if __name__ == "__main__":
+    solve()
+```
+
+</details>
+
+<details>
+<summary>Go Solution</summary>
+
+```go
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"strings"
+)
+
+func main() {
+	in := bufio.NewReader(os.Stdin)
+
+	var a, b string
+	fmt.Fscan(in, &a, &b)
+
+	a = strings.ToLower(a)
+	b = strings.ToLower(b)
+
+	if a < b {
+		fmt.Println(-1)
+	} else if a > b {
+		fmt.Println(1)
+	} else {
+		fmt.Println(0)
+	}
+}
+```
+
+</details>
+
 ---
 
 ## Key Takeaways
