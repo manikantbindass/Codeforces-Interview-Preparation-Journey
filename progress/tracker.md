@@ -4,8 +4,8 @@
 
 | Metric | Count |
 |--------|-------|
-| Total Solved | 9 |
-| Easy | 7 |
+| Total Solved | 10 |
+| Easy | 8 |
 | Medium | 2 |
 | Hard | 0 |
 
@@ -24,6 +24,7 @@
 | 2026-04-25 | [Football](../problems/easy/005_football.md) | Easy | 900 | implementation, strings | ✅ |
 | 2026-04-26 | [Young Physicist](../problems/easy/006_young_physicist.md) | Easy | 1000 | implementation, math | ✅ |
 | 2026-04-27 | [Petya and Strings](../problems/easy/007_petya_and_strings.md) | Easy | 800 | implementation, strings | ✅ |
+| 2026-04-28 | [Expression](../problems/easy/008_expression.md) | Easy | 1000 | brute-force, math | ✅ |
 
 ---
 
@@ -36,7 +37,7 @@
 | W1 (Apr 1-7) | 0 | - |
 | W2 (Apr 8-14) | 0 | - |
 | W3 (Apr 15-21) | 3 | Math, Implementation, Number Theory |
-| W4 (Apr 22-28) | 6 | Math, Greedy, Implementation, Brute Force, Strings |
+| W4 (Apr 22-28) | 7 | Math, Greedy, Implementation, Brute Force, Strings |
 
 ---
 
@@ -55,9 +56,9 @@
 
 | Milestone | Target | Current | Status |
 |-----------|--------|---------|--------|
-| First 10 problems | 10 | 9 | 🔴 |
-| First 50 problems | 50 | 9 | 🔴 |
-| First 100 problems | 100 | 9 | 🔴 |
-| 7-day streak | 7 days | 8 | 🟢 |
-| 30-day streak | 30 days | 8 | 🔴 |
+| First 10 problems | 10 | 10 | 🟢 |
+| First 50 problems | 50 | 10 | 🔴 |
+| First 100 problems | 100 | 10 | 🔴 |
+| 7-day streak | 7 days | 9 | 🟢 |
+| 30-day streak | 30 days | 9 | 🔴 |
 | All patterns covered | 15 | 0 | 🔴 |
