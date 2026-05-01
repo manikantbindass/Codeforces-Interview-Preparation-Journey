@@ -147,7 +147,7 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 | 📦 Arrays | 3 | 🟢 In Progress |
 | 🔧 Implementation | 8 | 🟢 In Progress |
 | 🔤 Strings | 4 | 🟢 In Progress |
-| 📊 Sorting | 1 | 🟢 In Progress |
+| 📊 Sorting | 0 | 🔴 Not Started |
 | 🌲 Trees | 0 | 🔴 Not Started |
 | 🗺️ Graphs | 0 | 🔴 Not Started |
 | 🧮 DP | 0 | 🔴 Not Started |
