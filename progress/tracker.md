@@ -4,9 +4,9 @@
 
 | Metric | Count |
 |--------|-------|
-| Total Solved | 12 |
+| Total Solved | 13 |
 | Easy | 10 |
-| Medium | 2 |
+| Medium | 3 |
 | Hard | 0 |
 
 ---
@@ -27,6 +27,7 @@
 | 2026-04-28 | [Expression](../problems/easy/008_expression.md) | Easy | 1000 | brute-force, math | ✅ |
 | 2026-04-29 | [Way Too Long Words](../problems/easy/009_way_too_long_words.md) | Easy | 800 | implementation, strings | ✅ |
 | 2026-04-30 | [Tram](../problems/easy/010_tram.md) | Easy | 800 | implementation | ✅ |
+| 2026-05-01 | [Candy Box (easy version)](../problems/medium/005_candy_box.md) | Medium | 1400 | greedy, sortings | ✅ |
 
 ---
 
@@ -41,6 +42,12 @@
 | W3 (Apr 15-21) | 3 | Math, Implementation, Number Theory |
 | W4 (Apr 22-28) | 7 | Math, Greedy, Implementation, Brute Force, Strings |
 | W5 (Apr 29-30) | 2 | Implementation, Strings |
+
+### May 2026
+
+| Week | Problems Solved | Topics Covered |
+|------|----------------|----------------|
+| W1 (May 1-7) | 1 | Greedy, Sorting |
 
 ---
 
@@ -59,9 +66,9 @@
 
 | Milestone | Target | Current | Status |
 |-----------|--------|---------|--------|
-| First 10 problems | 10 | 12 | 🟢 |
-| First 50 problems | 50 | 12 | 🔴 |
-| First 100 problems | 100 | 12 | 🔴 |
-| 7-day streak | 7 days | 11 | 🟢 |
-| 30-day streak | 30 days | 10 | 🔴 |
+| First 10 problems | 10 | 13 | 🟢 |
+| First 50 problems | 50 | 13 | 🔴 |
+| First 100 problems | 100 | 13 | 🔴 |
+| 7-day streak | 7 days | 12 | 🟢 |
+| 30-day streak | 30 days | 12 | 🔴 |
 | All patterns covered | 15 | 0 | 🔴 |

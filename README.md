@@ -9,9 +9,9 @@
 <br/>
 
 <!-- Badges -->
-![Problems Solved](https://img.shields.io/badge/Problems_Solved-12-blue?style=for-the-badge&logo=codeforces&logoColor=white)
+![Problems Solved](https://img.shields.io/badge/Problems_Solved-13-blue?style=for-the-badge&logo=codeforces&logoColor=white)
 ![Easy](https://img.shields.io/badge/Easy-10-success?style=for-the-badge)
-![Medium](https://img.shields.io/badge/Medium-2-orange?style=for-the-badge)
+![Medium](https://img.shields.io/badge/Medium-3-orange?style=for-the-badge)
 ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/manikantbindass/Codeforces-Interview-Preparation-Journey?style=for-the-badge&color=purple)
@@ -89,7 +89,8 @@ Codeforces-Interview-Preparation-Journey/
 │   │   └── 010_tram.md               # Tram
 │   ├── medium/                     # Rating 1200-1800
 │   │   ├── 003_ilya_and_bank_account.md  # Ilya and Bank Account
-│   │   └── 004_iq_test.md          # IQ Test
+│   │   ├── 004_iq_test.md          # IQ Test
+│   │   └── 005_candy_box.md        # Candy Box (easy version)
 │   └── hard/                       # Rating 1800+
 │
 ├── 📋 templates/
@@ -136,7 +137,7 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 | W2   | -   | -   | -   | -   | -   | -   | -   | 0     |
 | W3   | -   | -   | -   | -   | -   | -   | ✅✅✅ | 3     |
 | W4   | -   | -   | ✅  | ✅  | ✅  | ✅  | ✅  | 5     |
-| W5   | ✅  | ✅  | ✅  | ✅  | -   | -   | -   | 4     |
+| W5   | ✅  | ✅  | ✅  | ✅  | ✅  | -   | -   | 5     |
 
 ### 🏷️ Topics Covered
 
@@ -146,7 +147,7 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 | 📦 Arrays | 3 | 🟢 In Progress |
 | 🔧 Implementation | 8 | 🟢 In Progress |
 | 🔤 Strings | 4 | 🟢 In Progress |
-| 📊 Sorting | 0 | 🔴 Not Started |
+| 📊 Sorting | 1 | 🟢 In Progress |
 | 🌲 Trees | 0 | 🔴 Not Started |
 | 🗺️ Graphs | 0 | 🔴 Not Started |
 | 🧮 DP | 0 | 🔴 Not Started |
@@ -154,7 +155,7 @@ Hard   ████████░░░░░░░░░░░░░░░░�
 | 🪟 Sliding Window | 0 | 🔴 Not Started |
 | 🔗 Linked Lists | 0 | 🔴 Not Started |
 | 📚 Stacks/Queues | 0 | 🔴 Not Started |
-| 🎒 Greedy | 2 | 🟢 In Progress |
+| 🎒 Greedy | 3 | 🟢 In Progress |
 | 🔙 Backtracking | 0 | 🔴 Not Started |
 | 🧩 Bit Manipulation | 0 | 🔴 Not Started |
 | ♟️ Game Theory | 0 | 🔴 Not Started |
@@ -409,13 +410,14 @@ If this repo helped you, consider giving it a ⭐!
 | Month | Problems Solved | Easy | Medium | Hard | Focus Areas |
 |-------|----------------|------|--------|------|-------------|
 | April 2026 | 12 | 10 | 2 | 0 | Math, Implementation, Greedy, Brute Force, Strings |
+| May 2026 | 1 | 0 | 1 | 0 | Greedy, Sorting |
 
 ### Monthly Snapshot
 
 ```mermaid
-pie title April 2026 Problem Split
-    "Easy" : 10
-    "Medium" : 2
+pie title May 2026 Problem Split
+    "Easy" : 0
+    "Medium" : 1
     "Hard" : 0
 ```
 
